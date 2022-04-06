@@ -12,5 +12,10 @@ public class NaveTest {
 		 String patente = "Ab12";
 		 assertEquals(patente, a1.getPatente());
 	}
-
+	@Test
+	public void test2() {
+		Nave a2 = new Nave("Aa12", "Ford", "Azul");
+		String color = "rojo";
+		assertEquals(color, a2.getColor());
+	}
 }
